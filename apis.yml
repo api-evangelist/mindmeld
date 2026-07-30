@@ -1,7 +1,27 @@
 aid: mindmeld
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mindmeld.png
 name: MindMeld *
-description: 'MindMeld * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  MindMeld is an open-source conversational-AI platform for building deep-domain
+  voice interfaces and chatbots, originally developed by the GV-backed startup
+  MindMeld (formerly Expect Labs), acquired by Cisco in 2017 and open-sourced in
+  2019. Distributed as the `mindmeld` Python framework (Apache-2.0), it provides
+  tooling for every step of a modern conversational workflow — domain and intent
+  classification, entity recognition and resolution, and dialogue management —
+  along with reusable application Blueprints for use cases such as food ordering,
+  video discovery, and home-assistant experiences. MindMeld powers the Webex
+  Assistant and other Cisco conversational products.
 url: https://raw.githubusercontent.com/api-evangelist/mindmeld/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 tags:
 - Company
-- Ai
+- AI
+- Conversational AI
+- Chatbots
+- Natural Language Processing
+- Voice Interfaces
+- Machine Learning
+- Open Source
+- Python
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +55,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://mindmeld.com
+  url: https://www.mindmeld.com
+- type: DeveloperPortal
+  url: https://www.mindmeld.com/docs/index.html
+- type: Documentation
+  url: https://www.mindmeld.com/docs/index.html
+- type: GettingStarted
+  url: https://www.mindmeld.com/docs/userguide/getting_started.html
+- type: Quickstart
+  url: https://www.mindmeld.com/docs/quickstart/00_overview.html
+- type: GitHubOrganization
+  url: https://github.com/cisco/mindmeld
+- type: SourceCode
+  url: https://github.com/cisco/mindmeld
+- type: Blog
+  url: https://medium.com/mindmeld
+- type: ChangeLog
+  url: https://github.com/cisco/mindmeld/releases
+- type: ChangeLog
+  name: MindMeld release history (artifact)
+  url: changelog/mindmeld-changelog.yml
+- type: Packages
+  url: packages/mindmeld-packages.yml
+- type: SDKs
+  url: packages/mindmeld-packages.yml
+- type: WellKnown
+  url: well-known/mindmeld-well-known.yml
+- type: DomainSecurity
+  url: security/mindmeld-domain-security.yml
