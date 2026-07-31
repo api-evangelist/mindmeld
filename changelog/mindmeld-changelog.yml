@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/mindmeld/ + https://github.com/cisco/mindmeld/releases
+scheme: semver
+current_version: 4.6.2
+notes: Distributed as the `mindmeld` PyPI package. Dates below are PyPI upload dates.
+  4.7.0rc2 is the latest pre-release; 4.6.2 is the latest stable. The project is in
+  low-activity maintenance (last GitHub push 2025-01-07).
+entries:
+- version: 4.7.0rc2
+  date: '2022-11-01'
+  prerelease: true
+- version: 4.7.0rc1
+  date: '2022-09-14'
+  prerelease: true
+- version: 4.6.2
+  date: '2022-08-12'
+  prerelease: false
+- version: 4.6.1
+  date: '2022-08-02'
+  prerelease: false
+- version: 4.6.0
+  date: '2022-08-02'
+  prerelease: false
+- version: 4.5.0
+  date: '2022-04-12'
+  prerelease: false
+- version: 4.4.2
+  date: '2022-02-25'
+  prerelease: false

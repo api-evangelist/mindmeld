@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/mindmeld/
+packages:
+- language: python
+  registry: pypi
+  name: mindmeld
+  version: 4.6.2
+  url: https://pypi.org/project/mindmeld/
+  install: pip install mindmeld
+  official: true
+  publisher: Cisco Systems, Inc.
+  license: Apache-2.0
+  source_code: https://github.com/cisco/mindmeld
+  notes: Official Cisco MindMeld conversational-AI Python framework (deep-domain voice
+    interfaces and chatbots). Latest stable 4.6.2 (2022-08-12); 4.7.0rc2 available as
+    a pre-release.
