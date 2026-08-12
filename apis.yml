@@ -54,6 +54,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/cisco/mindmeld/issues
+- type: License
+  name: Apache-2.0
+  url: https://github.com/cisco/mindmeld/blob/master/LICENSE
 - type: Website
   url: https://www.mindmeld.com
 - type: DeveloperPortal
