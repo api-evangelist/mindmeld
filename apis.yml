@@ -39,6 +39,16 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
+- Artificial Intelligence
+- Conversational AI
+- Chatbots
+- Natural Language Processing
+- Voice Interfaces
+- Machine-Learning
+- Open-Source
+- Python
+tags_raw:
+- Company
 - AI
 - Conversational AI
 - Chatbots
